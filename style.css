@@ -1,0 +1,27 @@
+body{
+  background-color: lightblue;
+  font-family: sans-serif;
+  padding:24px;
+  
+}
+h1{
+  font-size: 60px;
+  padding: 2px;
+  
+}
+h3{
+  padding: 2px;
+}
+.section{
+  padding:72px;
+}
+.ps{
+  color: darkblue;
+}
+a{
+  color:black;
+}
+.import{
+  font-size: 36px;
+  font-weight:bold;
+}
