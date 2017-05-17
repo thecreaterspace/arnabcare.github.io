@@ -26,16 +26,16 @@
             <div class="nav-wrapper">
               <a href="#" class="brand-logo">Logo</a>
               <ul id="nav-mobile" class="right">
-                <li><a href="sass.html">Sass</a></li>
-                <li><a href="badges.html">Components</a></li>
-                <li><a href="collapsible.html">JavaScript</a></li>
+                <li><a onclick="services()">Services</a></li>
+                <li><a onclick="plans()">Plans</a></li>
+                <li><a href="http://getarnabcare.fwscart.com">Store</a></li>
               </ul>
             </div>
           </nav>
         
-          <h2 class="section">
+          <h2 class="section" id="products">
             
-            Products
+            Services
           </h2>
           <li><img src="https://cdn4.iconfinder.com/data/icons/flatron-2000-set-1/512/monitor-512.png" width=150px height=150px><strong class="ps">Antivirus.</strong><img src="https://cdn4.iconfinder.com/data/icons/flatron-2000-set-1/512/monitor-512.png" width=150px height=150px></li>
           <p>
@@ -69,7 +69,12 @@
         </div>
       </center>
       
-    
+    <script>
+      var services = function(){
+        document.getElementById('products').scrollIntoView();
+      }
+      
+    </script>
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script type="text/javascript" src="materialize.min.js"></script>
       
