@@ -19,11 +19,13 @@ body{
 h1{
   font-size: 60px;
   padding: 2px;
+  font-family:roboto-bold;
   
 }
 h3{
   padding: 2px;
   size: 18px;
+  font-family: roboto;
 }
 .section{
   padding:72px;
