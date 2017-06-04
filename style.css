@@ -52,7 +52,7 @@ li{
 }
 #p-theme{
     background-image:url("grapegoldwall.png");
-    background-repeat:no-repeat;
+    background-size: cover;
     
 
 }
